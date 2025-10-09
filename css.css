@@ -1,0 +1,31 @@
+*{
+    font-family: "Open Sans", sans-serif;
+     
+}
+
+.main{
+    width: 300px;
+    height:390px ;
+    margin: 88px auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr fr 1fr   ;
+    background-color: rgb(241, 237, 232);
+    
+}
+.main .box{
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 0px;
+}
+.box_two{
+    text-align: left;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.box_two input{
+    width: 100%;
+
+    box-sizing: border-box;
+    
+}
